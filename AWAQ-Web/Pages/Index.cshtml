@@ -1,10 +1,51 @@
 ﻿@page
-@model IndexModel
+@model AWAQ_Web.Pages.IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Log In";
+    Layout = "";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Bootstrap 4</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/index.css" />
+</head>
+<body>
+    <div class="cont">
+        <div class="login">
+            <div class="form">
+                <div class="break"></div>
+                <img class="logo" src="~/img/awaq-logo.png"/>
+                <h1>Bienvenido!</h1>
+                <p>Introduzca sus credenciales para acceder a su cuenta</p>
+                <br />
+                <form>
+                    <div class="mb-3">
+                        <label for="correo" class="form-label">Ingresa tu correo electronico</label>
+                        <input type="email" class="form-control" id="correo" placeholder="ejemplo@awaq.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="contraseña" class="form-label">Ingresa tu contraseña</label>
+                        <a href="#">Has olvidado tu contraseña?</a>
+                        <input type="password" class="form-control" id="email" placeholder="Contraseña" required>
+                    </div>
+                    <button class="btn" type="submit">Submit form</button>
+                </form>
+                
+            </div>
+        </div>
+
+        <div class="login-img">
+        </div>
+
+    </div>
+        
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
+

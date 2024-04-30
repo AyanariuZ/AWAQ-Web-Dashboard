@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\super\\OneDrive\\Escritorio\\4to semestre\\Construcción de Software\\Modulo Web\\AWAQ-Proyect\\AWAQ-Web\\AWAQ-Web.csproj",
+      "projectUniqueName": "C:\\Users\\super\\OneDrive\\Escritorio\\4to semestre\\Construcción de Software\\Modulo Web\\AWAQ-Proyect\\AWAQ-Web-Dashboard\\AWAQ-Web\\AWAQ-Web.csproj",
       "projectName": "AWAQ-Web",
-      "projectPath": "C:\\Users\\super\\OneDrive\\Escritorio\\4to semestre\\Construcción de Software\\Modulo Web\\AWAQ-Proyect\\AWAQ-Web\\AWAQ-Web.csproj",
+      "projectPath": "C:\\Users\\super\\OneDrive\\Escritorio\\4to semestre\\Construcción de Software\\Modulo Web\\AWAQ-Proyect\\AWAQ-Web-Dashboard\\AWAQ-Web\\AWAQ-Web.csproj",
       "packagesPath": "C:\\Users\\super\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\super\\OneDrive\\Escritorio\\4to semestre\\Construcción de Software\\Modulo Web\\AWAQ-Proyect\\AWAQ-Web\\obj\\",
+      "outputPath": "C:\\Users\\super\\OneDrive\\Escritorio\\4to semestre\\Construcción de Software\\Modulo Web\\AWAQ-Proyect\\AWAQ-Web-Dashboard\\AWAQ-Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
