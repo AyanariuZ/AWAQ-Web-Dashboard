@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\isaac\\OneDrive\\Documentos\\GitHub\\AWAQ-Web-Dashboard\\AWAQ-Web\\AWAQ-Web.csproj": {}
+    "C:\\Users\\super\\OneDrive\\Escritorio\\4to semestre\\Construcción de Software\\Modulo Web\\AWAQ-Proyect\\AWAQ-Web-Dashboard\\AWAQ-Web\\AWAQ-Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\isaac\\OneDrive\\Documentos\\GitHub\\AWAQ-Web-Dashboard\\AWAQ-Web\\AWAQ-Web.csproj": {
+    "C:\\Users\\super\\OneDrive\\Escritorio\\4to semestre\\Construcción de Software\\Modulo Web\\AWAQ-Proyect\\AWAQ-Web-Dashboard\\AWAQ-Web\\AWAQ-Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isaac\\OneDrive\\Documentos\\GitHub\\AWAQ-Web-Dashboard\\AWAQ-Web\\AWAQ-Web.csproj",
+        "projectUniqueName": "C:\\Users\\super\\OneDrive\\Escritorio\\4to semestre\\Construcción de Software\\Modulo Web\\AWAQ-Proyect\\AWAQ-Web-Dashboard\\AWAQ-Web\\AWAQ-Web.csproj",
         "projectName": "AWAQ-Web",
-        "projectPath": "C:\\Users\\isaac\\OneDrive\\Documentos\\GitHub\\AWAQ-Web-Dashboard\\AWAQ-Web\\AWAQ-Web.csproj",
-        "packagesPath": "C:\\Users\\isaac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isaac\\OneDrive\\Documentos\\GitHub\\AWAQ-Web-Dashboard\\AWAQ-Web\\obj\\",
+        "projectPath": "C:\\Users\\super\\OneDrive\\Escritorio\\4to semestre\\Construcción de Software\\Modulo Web\\AWAQ-Proyect\\AWAQ-Web-Dashboard\\AWAQ-Web\\AWAQ-Web.csproj",
+        "packagesPath": "C:\\Users\\super\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\super\\OneDrive\\Escritorio\\4to semestre\\Construcción de Software\\Modulo Web\\AWAQ-Proyect\\AWAQ-Web-Dashboard\\AWAQ-Web\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\isaac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\super\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -63,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
