@@ -28,3 +28,34 @@ C:\Users\super\OneDrive\Escritorio\4to semestre\Construcción de Software\Modulo
 C:\Users\super\OneDrive\Escritorio\4to semestre\Construcción de Software\Modulo Web\AWAQ-Proyect\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\AWAQ-Web.pdb
 C:\Users\super\OneDrive\Escritorio\4to semestre\Construcción de Software\Modulo Web\AWAQ-Proyect\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\AWAQ-Web.genruntimeconfig.cache
 C:\Users\super\OneDrive\Escritorio\4to semestre\Construcción de Software\Modulo Web\AWAQ-Proyect\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\ref\AWAQ-Web.dll
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\bin\Debug\net7.0\appsettings.json
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\bin\Debug\net7.0\AWAQ-Web.staticwebassets.runtime.json
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\bin\Debug\net7.0\AWAQ-Web.exe
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\bin\Debug\net7.0\AWAQ-Web.deps.json
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\bin\Debug\net7.0\AWAQ-Web.runtimeconfig.json
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\bin\Debug\net7.0\AWAQ-Web.dll
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\bin\Debug\net7.0\AWAQ-Web.pdb
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\AWAQ-Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\AWAQ-Web.AssemblyInfoInputs.cache
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\AWAQ-Web.AssemblyInfo.cs
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\AWAQ-Web.csproj.CoreCompileInputs.cache
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\AWAQ-Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\AWAQ-Web.RazorAssemblyInfo.cache
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\AWAQ-Web.RazorAssemblyInfo.cs
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\AWAQ-Web.sourcelink.json
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\staticwebassets\msbuild.AWAQ-Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\staticwebassets\msbuild.build.AWAQ-Web.props
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.AWAQ-Web.props
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.AWAQ-Web.props
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\scopedcss\bundle\AWAQ-Web.styles.css
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\scopedcss\projectbundle\AWAQ-Web.bundle.scp.css
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\AWAQ-Web.dll
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\refint\AWAQ-Web.dll
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\AWAQ-Web.pdb
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\AWAQ-Web.genruntimeconfig.cache
+C:\Users\miabe\OneDrive\Desktop\Alex\AWAQ-Web-Dashboard\AWAQ-Web\obj\Debug\net7.0\ref\AWAQ-Web.dll

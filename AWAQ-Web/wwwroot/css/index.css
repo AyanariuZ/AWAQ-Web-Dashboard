@@ -1,41 +1,76 @@
-﻿.cont{
-    display:flex;
-}
+﻿@media (max-width: 767.98px) {
+    .cont {
+        height: 100vh;
+        flex-direction: column;
+        background-image:url(/img/hojas-blur.png);
+        background-size: cover;
+        justify-content:center;
+        align-items:center;
+        display:flex;
+    }
 
-.login{
-    width:50%;
-    display:flex;
-    justify-content:center;
+    .form {
+        margin:2rem;
+        width:fit-content;
+    }
     
-
-}
-.logo{
-    margin:1vw;
-    width:14rem;
-    height:auto;
-}
-.break{
-    height:11vh;
-
-}
-
-.btn{
-    background-color: rgb(44,86,41);
-    color: white;
-    width: 100%;
+    .login {
+        background-color:rgba(255,255,255,0.8);
+        display: flex;
+        justify-content: center;
+        width:fit-content;
+        border-radius: 2rem;
+    }
+    .login-img {
+       display:none;
+    }
 }
 
-.btn:hover{
-    color:white;
+.cont{
+    display:flex;
 }
 
-.login-img {
-    width:50%;
-    height:100vh;
-    background-image: url(../img/hojas.jpg);
-    background-size:cover;
-    border-top-left-radius:6vh;
-    border-bottom-left-radius:6vh;
-    background-position:bottom;
+@media (min-width: 767.98px) {
+    .login {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .back-img{
+        display:flex;
+        width:100%;
+    }
+    .form {
+        margin-top:6rem;
+    }
 }
+    .logo {
+        margin: 1vw;
+        width: 14rem;
+        height: auto;
+    }
+
+    .break {
+        height: 11vh;
+    }
+
+    .btn {
+        background-color: rgb(44,86,41);
+        color: white;
+        width: 100%;
+    }
+
+    .btn:hover {
+        color: white;
+    }
+
+    .login-img {
+        width: 50%;
+        height: 100vh;
+        background-image: url(../img/hojas.jpg);
+        background-size: cover;
+        border-top-left-radius: 6vh;
+        border-bottom-left-radius: 6vh;
+        background-position: bottom;
+    }
 
