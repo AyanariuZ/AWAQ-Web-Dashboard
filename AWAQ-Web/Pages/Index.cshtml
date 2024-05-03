@@ -24,14 +24,14 @@
                 <h1>¡Bienvenido!</h1>
                 <p>Introduzca sus credenciales para acceder a su cuenta</p>
                 <br />
-                <form>
+                <form method="post">
                     <div class="mb-3">
                         <label for="correo" class="form-label">Ingresa tu correo electronico</label>
-                        <input type="email" class="form-control" id="correo" placeholder="ejemplo@awaq.com" required>
+                        <input asp-for="email" type="email" class="form-control" id="correo" placeholder="ejemplo@awaq.com" required>
                     </div>
                     <div class="mb-3">
                         <label for="contraseña" class="form-label">Ingresa tu contraseña</label>
-                        <input type="password" class="form-control" id="email" placeholder="Contraseña" required>
+                        <input asp-for="password" type="password" class="form-control" id="email" placeholder="Contraseña" required>
                     </div>
                     <button class="btn" type="submit">Iniciar sesión</button>
                 </form>
