@@ -1,0 +1,41 @@
+﻿.cont{
+    display:flex;
+}
+
+.login{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    
+
+}
+.logo{
+    margin:1vw;
+    width:14rem;
+    height:auto;
+}
+.break{
+    height:11vh;
+
+}
+
+.btn{
+    background-color: rgb(44,86,41);
+    color: white;
+    width: 100%;
+}
+
+.btn:hover{
+    color:white;
+}
+
+.login-img {
+    width:50%;
+    height:100vh;
+    background-image: url(../img/hojas.jpg);
+    background-size:cover;
+    border-top-left-radius:6vh;
+    border-bottom-left-radius:6vh;
+    background-position:bottom;
+}
+
