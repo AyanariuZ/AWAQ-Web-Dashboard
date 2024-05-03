@@ -27,11 +27,12 @@
                 <form method="post">
                     <div class="mb-3">
                         <label for="correo" class="form-label">Ingresa tu correo electronico</label>
-                        <input asp-for="email" type="email" class="form-control" id="correo" placeholder="ejemplo@awaq.com" required>
+                        <input asp-for="email" type="email" class="form-control" id="correo" placeholder="ejemplo@awaq.com" >
+                        <!-- agregar required-->
                     </div>
                     <div class="mb-3">
                         <label for="contraseña" class="form-label">Ingresa tu contraseña</label>
-                        <input asp-for="password" type="password" class="form-control" id="email" placeholder="Contraseña" required>
+                        <input asp-for="password" type="password" class="form-control" id="email" placeholder="Contraseña" >
                     </div>
                     <button class="btn" type="submit">Iniciar sesión</button>
                 </form>

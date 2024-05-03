@@ -42,9 +42,10 @@ namespace AWAQ_Web.Pages
 
             foreach (var usuario in Usuarios)
             {
-                if (email == usuario.email && password == usuario.password)
+                //if (email == usuario.email && password == usuario.password)
+                if (email == usuario1.email && password == usuario1.password)
                 {
-                    return RedirectToPage("/pruebalogin");
+                    return RedirectToPage("/Registroo");
                 }
             }
             return Page();

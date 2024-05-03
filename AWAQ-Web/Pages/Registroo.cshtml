@@ -2,7 +2,7 @@
 @model RegistrooModel
 @{
 	ViewData["Title"] = "Log In";
-	Layout = "";
+	Layout = "_Layout";
 }
 
 
@@ -11,53 +11,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo Bootstrap 4</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <title>Ejemplo Bootstrap 4</title>   
     <link rel="stylesheet" href="~/css/registroo.css" />
 </head>
 <body>
     <div class="cont">
         <div class="login">
             <div class="form">
-                <div class="break"></div>
-                <img class="logo" src="~/img/awaq-logo.png" />
                 <h1>Registro de colaboradores</h1>
 
-                <p>Introduzca sus credenciales de acceso</p>
+                <p>Introduzca los datos del colaborador a registrar</p>
                 
-                <form>
+                <form method="post">
                     <div class="mb-3">
                         <label for="ingresa tu nombre" class="form-label">Nombre</label>
-                        <input type="nombre" class="form-control" id="nombre" placeholder="Ingresar nombre" required>
+                        <input asp-for="nombre" type="text" class="form-control" id="nombre" placeholder="Ingresar nombre" required>
                     </div>
                     <div class="mb-3">
                         <label for="Ingresa tu Apellidos" class="form-label">Apellidos</label>
-                        <input type="apellidos" class="form-control" id="apellidos" placeholder="Ingresar apellidos" required>
+                        <input asp-for="apellidos" type="text" class="form-control" id="apellidos" placeholder="Ingresar apellidos" required>
                     </div>
 
                     <div class="mb-3">
                         <label for="Ingresar correo electrónico" class="form-label">Correo electrónico</label>
-                        <input type="correo" class="form-control" id="correo" placeholder="ejemplo@gmail.com" required>
+                        <input asp-for="email" type="email" class="form-control" id="correo" placeholder="ejemplo@awak.com" required>
                     </div>
 
                     <div class="mb-3">
-                        <label for="Tipo de colaborador" class="form-label">Colaborador</label>
-                        <select class="form-select" id="Colaborador" name="Colaborador" required>
-                            <option value="">Seleccionar</option>
-                            <option value="">Administrador</option>
-                            <option value="1">TEDI</option>
-                            <option value="2">General</option>
+                        <label for="Tipo de colaborador" class="form-label">Tipo de colaborador</label>
+                        <select asp-for="tipo_usuario"  class="form-select" id="Colaborador" required>
+                            <option selected>Seleccionar...</option>  
+                            <option value="ADMIN">Administrador</option>
+                            <option value="TEDI">TEDI</option>
+                            <option value="GENERAL">General</option>
                         </select>
                     </div>
 
                     <div class="mb-3">
                         <label for="Ingresar contraseña" class="form-label">Contraseña</label>
-                        <input type="contraseña" class="form-control" id="contraseña" placeholder="Ingresar contraseña" required>
+                        <input asp-for="password"  type="password" class="form-control" id="contraseña" placeholder="Ingresar contraseña" required>
                     </div>
 
                     <div class="mb-3">
-                        <label for="Confirmar contraseña" class="form-label">Confirmar contraseña</label>
-                        <input type="cocontraseña" class="form-control" id="cocontraseña" placeholder="Confirmar contraseña" required>
+                        <label  for="Confirmar contraseña" class="form-label">Confirmar contraseña</label>
+                        <input asp-for="password2" type="password" class="form-control" id="cocontraseña" placeholder="Confirmar contraseña" required>
                     </div>
 
 
