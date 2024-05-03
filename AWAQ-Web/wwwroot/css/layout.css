@@ -1,0 +1,29 @@
+﻿
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display:flex;
+    width:100%;
+    height:8vh;
+
+}
+
+.side-navbar {
+    background-color: #000f;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-flow:column;
+    width: 15%;
+    height: 92vh;
+}
+.cont{
+    display:flex;
+    width:100%;
+    height:92vh;
+}
+
+.registro-cont{
+    width:100%;
+}

@@ -6,8 +6,7 @@
     width:50%;
     display:flex;
     justify-content:center;
-    
-
+    padding:2rem;
 }
 .logo{
     margin:1vw;
@@ -15,7 +14,7 @@
     height:auto;
 }
 .break{
-    height:11vh;
+    height:1vh;
 
 }
 
@@ -31,11 +30,13 @@
 
 .login-img {
     width:50%;
-    height:100vh;
+    height:92vh;
     background-image: url(../img/hojas.jpg);
     background-size:cover;
     border-top-left-radius:6vh;
     border-bottom-left-radius:6vh;
     background-position:bottom;
 }
+
+
 

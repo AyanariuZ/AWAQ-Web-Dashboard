@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
+      "Id": "C:\\Users\\miabe\\OneDrive\\Desktop\\Alex\\AWAQ-Web-Dashboard\\AWAQ-Web\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
+      "Id": "C:\\Users\\miabe\\OneDrive\\Desktop\\Alex\\AWAQ-Web-Dashboard\\AWAQ-Web\\wwwroot\\css\\registroo.css",
+      "PackagePath": "staticwebassets\\css\\registroo.css"
+    },
+    {
       "Id": "C:\\Users\\miabe\\OneDrive\\Desktop\\Alex\\AWAQ-Web-Dashboard\\AWAQ-Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
