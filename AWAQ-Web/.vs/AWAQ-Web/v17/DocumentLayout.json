@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\miabe\\OneDrive\\Desktop\\Alex\\AWAQ-Web-Dashboard\\AWAQ-Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04C57B5B-12A3-4986-A7A1-0FB3F64353CA}|AWAQ-Web.csproj|c:\\users\\miabe\\onedrive\\desktop\\alex\\awaq-web-dashboard\\awaq-web\\wwwroot\\css\\registroo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{04C57B5B-12A3-4986-A7A1-0FB3F64353CA}|AWAQ-Web.csproj|solutionrelative:wwwroot\\css\\registroo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{04C57B5B-12A3-4986-A7A1-0FB3F64353CA}|AWAQ-Web.csproj|c:\\users\\miabe\\onedrive\\desktop\\alex\\awaq-web-dashboard\\awaq-web\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04C57B5B-12A3-4986-A7A1-0FB3F64353CA}|AWAQ-Web.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04C57B5B-12A3-4986-A7A1-0FB3F64353CA}|AWAQ-Web.csproj|c:\\users\\miabe\\onedrive\\desktop\\alex\\awaq-web-dashboard\\awaq-web\\pages\\registroo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04C57B5B-12A3-4986-A7A1-0FB3F64353CA}|AWAQ-Web.csproj|solutionrelative:pages\\registroo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{04C57B5B-12A3-4986-A7A1-0FB3F64353CA}|AWAQ-Web.csproj|c:\\users\\miabe\\onedrive\\desktop\\alex\\awaq-web-dashboard\\awaq-web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04C57B5B-12A3-4986-A7A1-0FB3F64353CA}|AWAQ-Web.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04C57B5B-12A3-4986-A7A1-0FB3F64353CA}|AWAQ-Web.csproj|c:\\users\\miabe\\onedrive\\desktop\\alex\\awaq-web-dashboard\\awaq-web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{04C57B5B-12A3-4986-A7A1-0FB3F64353CA}|AWAQ-Web.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04C57B5B-12A3-4986-A7A1-0FB3F64353CA}|AWAQ-Web.csproj|c:\\users\\miabe\\onedrive\\desktop\\alex\\awaq-web-dashboard\\awaq-web\\wwwroot\\css\\registroo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{04C57B5B-12A3-4986-A7A1-0FB3F64353CA}|AWAQ-Web.csproj|solutionrelative:wwwroot\\css\\registroo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04C57B5B-12A3-4986-A7A1-0FB3F64353CA}|AWAQ-Web.csproj|c:\\users\\miabe\\onedrive\\desktop\\alex\\awaq-web-dashboard\\awaq-web\\wwwroot\\css\\layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -19,8 +27,8 @@
       "RelativeMoniker": "D:0:0:{04C57B5B-12A3-4986-A7A1-0FB3F64353CA}|AWAQ-Web.csproj|solutionrelative:wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04C57B5B-12A3-4986-A7A1-0FB3F64353CA}|AWAQ-Web.csproj|c:\\users\\miabe\\onedrive\\desktop\\alex\\awaq-web-dashboard\\awaq-web\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04C57B5B-12A3-4986-A7A1-0FB3F64353CA}|AWAQ-Web.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04C57B5B-12A3-4986-A7A1-0FB3F64353CA}|AWAQ-Web.csproj|c:\\users\\miabe\\onedrive\\desktop\\alex\\awaq-web-dashboard\\awaq-web\\pages\\registroo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04C57B5B-12A3-4986-A7A1-0FB3F64353CA}|AWAQ-Web.csproj|solutionrelative:pages\\registroo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,73 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "layout.css",
               "DocumentMoniker": "C:\\Users\\miabe\\OneDrive\\Desktop\\Alex\\AWAQ-Web-Dashboard\\AWAQ-Web\\wwwroot\\css\\layout.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\layout.css",
               "ToolTip": "C:\\Users\\miabe\\OneDrive\\Desktop\\Alex\\AWAQ-Web-Dashboard\\AWAQ-Web\\wwwroot\\css\\layout.css",
               "RelativeToolTip": "wwwroot\\css\\layout.css",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-05-03T18:13:03.93Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\miabe\\OneDrive\\Desktop\\Alex\\AWAQ-Web-Dashboard\\AWAQ-Web\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\miabe\\OneDrive\\Desktop\\Alex\\AWAQ-Web-Dashboard\\AWAQ-Web\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-03T20:41:04.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\miabe\\OneDrive\\Desktop\\Alex\\AWAQ-Web-Dashboard\\AWAQ-Web\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\miabe\\OneDrive\\Desktop\\Alex\\AWAQ-Web-Dashboard\\AWAQ-Web\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB0AAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T19:47:20.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\miabe\\OneDrive\\Desktop\\Alex\\AWAQ-Web-Dashboard\\AWAQ-Web\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
               "ToolTip": "C:\\Users\\miabe\\OneDrive\\Desktop\\Alex\\AWAQ-Web-Dashboard\\AWAQ-Web\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "Pages\\Index.cshtml.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAwC4AAAARAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA3wBIAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-03T19:23:12.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "registroo.css",
               "DocumentMoniker": "C:\\Users\\miabe\\OneDrive\\Desktop\\Alex\\AWAQ-Web-Dashboard\\AWAQ-Web\\wwwroot\\css\\registroo.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\registroo.css",
               "ToolTip": "C:\\Users\\miabe\\OneDrive\\Desktop\\Alex\\AWAQ-Web-Dashboard\\AWAQ-Web\\wwwroot\\css\\registroo.css",
               "RelativeToolTip": "wwwroot\\css\\registroo.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-03T19:05:00.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-03T19:05:00.631Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "index.css",
               "DocumentMoniker": "C:\\Users\\miabe\\OneDrive\\Desktop\\Alex\\AWAQ-Web-Dashboard\\AWAQ-Web\\wwwroot\\css\\index.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\index.css",
               "ToolTip": "C:\\Users\\miabe\\OneDrive\\Desktop\\Alex\\AWAQ-Web-Dashboard\\AWAQ-Web\\wwwroot\\css\\index.css",
               "RelativeToolTip": "wwwroot\\css\\index.css",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-03T18:11:54.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-03T18:11:54.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Registroo.cshtml",
               "DocumentMoniker": "C:\\Users\\miabe\\OneDrive\\Desktop\\Alex\\AWAQ-Web-Dashboard\\AWAQ-Web\\Pages\\Registroo.cshtml",
               "RelativeDocumentMoniker": "Pages\\Registroo.cshtml",
               "ToolTip": "C:\\Users\\miabe\\OneDrive\\Desktop\\Alex\\AWAQ-Web-Dashboard\\AWAQ-Web\\Pages\\Registroo.cshtml",
               "RelativeToolTip": "Pages\\Registroo.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACQAAABwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-03T05:53:42.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-03T05:53:42.868Z"
             }
           ]
         }
