@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lKjx6fM4TBTk7rM7lj9+s3owiUFC3B4lVq0gk10td2M=",
+  "Hash": "Uext3AQDM0I0aqcCFPfd+n1UfwgCREgiABpi2JhYum0=",
   "Source": "AWAQ-Web",
   "BasePath": "_content/AWAQ-Web",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
+      "Identity": "C:\\Users\\isaac\\OneDrive\\Documentos\\GitHub\\AWAQ-Web-Dashboard\\AWAQ-Web\\wwwroot\\css\\registroo.css",
+      "SourceId": "AWAQ-Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\isaac\\OneDrive\\Documentos\\GitHub\\AWAQ-Web-Dashboard\\AWAQ-Web\\wwwroot\\",
+      "BasePath": "_content/AWAQ-Web",
+      "RelativePath": "css/registroo.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\registroo.css"
     },
     {
       "Identity": "C:\\Users\\isaac\\OneDrive\\Documentos\\GitHub\\AWAQ-Web-Dashboard\\AWAQ-Web\\wwwroot\\css\\site.css",
