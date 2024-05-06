@@ -1,0 +1,48 @@
+﻿@model AWAQ_Web.MainPageModel
+
+<table id="collaboratorsTable" class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Fecha de ingreso</th>
+            <th>Intentos</th>
+            <th>Calificación</th>
+            <th>Estatus</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Collaborators)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.TipoUsuario</td>
+                <td>@item.Nombre</td>
+                <td>@item.FechaIngreso.ToString("dd/MM/yyyy")</td>
+                <td>@item.Intentos</td>
+                <td>@item.Calificacion</td>
+                <td>@item.Estatus</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/dataTables.bootstrap5.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap5.min.css" />
+    <script>$(document).ready(function () {
+            $('#collaboratorsTable').DataTable({
+                "paging": true,  // Habilita la paginación
+                "ordering": true,  // Habilita la ordenación
+                "info": true,  // Muestra info de paginación
+                "searching": true,  // Habilita la barra de búsqueda
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/1.11.3/i18n/es_es.json"  // Configuración de idioma español
+                }
+            });
+        });</script>
+}
+

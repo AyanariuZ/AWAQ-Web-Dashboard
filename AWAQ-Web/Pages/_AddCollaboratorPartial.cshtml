@@ -1,0 +1,46 @@
+﻿@model AWAQ_Web.MainPageModel
+
+<link rel="stylesheet" href="~/css/styles.css" />
+
+
+<div class="cont">
+    <div class="login">
+        <div class="form">
+            <h1>Registro de colaboradores</h1>
+            <p>Introduzca los datos del colaborador a registrar</p>
+
+            <form method="post" asp-page-handler="RegisterCollaborator">
+                <div class="mb-3">
+                    <label class="form-label">Nombre</label>
+                    <input asp-for="Nombre" type="text" class="form-control" placeholder="Ingresar nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Apellidos</label>
+                    <input asp-for="Apellidos" type="text" class="form-control" placeholder="Ingresar apellidos" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Correo electrónico</label>
+                    <input asp-for="Email" type="email" class="form-control" placeholder="correo@awak.com" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Tipo de colaborador</label>
+                    <select asp-for="TipoUsuario" class="form-select" required>
+                        <option value="">- Seleccionar -</option>
+                        <option value="ADMIN">Administrador</option>
+                        <option value="TEDI">TEDI</option>
+                        <option value="GENERAL">General</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Contraseña</label>
+                    <input asp-for="Password" type="password" class="form-control" placeholder="Ingresar contraseña" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Confirmar contraseña</label>
+                    <input asp-for="PasswordConfirm" type="password" class="form-control" placeholder="Confirmar contraseña" required>
+                </div>
+                <button class="btn" type="submit">Registrar colaborador</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -16,7 +16,7 @@ namespace AWAQ_Web.Pages
         public IList<Usuario> Usuarios { get; set; }
         public IActionResult OnPost()
         {
-            string connString = "Server=127.0.0.1;Port=3306;Database=awak;Uid=root;password=0906alex;";
+            string connString = "Server=127.0.0.1;Port=3306;Database=Awak;Uid=root;password=xUgcn5c1;";
             MySqlConnection conn = new MySqlConnection(connString);
             conn.Open();
 
@@ -45,7 +45,7 @@ namespace AWAQ_Web.Pages
                 //if (email == usuario.email && password == usuario.password)
                 if (email == usuario1.email && password == usuario1.password)
                 {
-                    return RedirectToPage("/Registroo");
+                    return RedirectToPage("/MainPage");
                 }
             }
             return Page();
