@@ -1,0 +1,136 @@
+﻿:root {
+    --main-bg-color: #009d63;
+    --main-text-color: #2C5629;
+    --second-text-color: #649353;
+    --second-bg-color: #c1efde;
+}
+
+.primary-text {
+    color: #2C5629;
+}
+
+.second-text {
+    color: #649353;
+}
+
+.primary-bg {
+    background-color: var(--main-text-color);
+}
+
+.secondary-bg {
+    background-color: var(--second-bg-color);
+}
+
+.rounded-full {
+    border-radius: 100%;
+}
+
+#wrapper {
+    overflow-x: hidden;
+    background-color: #F1F2F7;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin 0.25s ease-out;
+    -moz-transition: margin 0.25s ease-out;
+    -o-transition: margin 0.25s ease-out;
+    transition: margin 0.25s ease-out;
+}
+
+    #sidebar-wrapper .sidebar-heading {
+        padding: 0.875rem 1.25rem;
+        font-size: 1.2rem;
+    }
+
+    #sidebar-wrapper .list-group {
+        width: 15rem;
+    }
+
+#page-content-wrapper {
+    min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+
+#menu-toggle {
+    cursor: pointer;
+}
+
+.list-group-item {
+    border: none;
+    padding: 20px 30px;
+}
+
+    .list-group-item.active {
+        background-color: transparent;
+        color: var(--main-text-color);
+        font-weight: bold;
+        border: none;
+    }
+
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        margin-left: -15rem;
+    }
+}
+
+.submenu .list-group-item {
+    margin-top: -10px;
+    padding-left: 30px;
+}
+
+
+
+.cont {
+    display: flex;
+}
+
+.login {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.logo {
+    margin: 1vw;
+    width: 14rem;
+    height: auto;
+}
+
+.break {
+    height: 1vh;
+}
+
+.btn {
+    background-color: rgb(44,86,41);
+    color: white;
+    width: 100%;
+}
+
+    .btn:hover {
+        color: white;
+    }
+
+.login-img {
+    width: 50%;
+    height: 92vh;
+    background-image: url(../img/hojas.jpg);
+    background-size: cover;
+    border-top-left-radius: 6vh;
+    border-bottom-left-radius: 6vh;
+    background-position: bottom;
+}

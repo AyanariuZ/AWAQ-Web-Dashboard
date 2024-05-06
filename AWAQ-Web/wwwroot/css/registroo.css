@@ -31,7 +31,7 @@
 .login-img {
     width:50%;
     height:92vh;
-    background-image: url(../img/hojas.jpg);
+    background-image: url(/img/hojas.jpg);
     background-size:cover;
     border-top-left-radius:6vh;
     border-bottom-left-radius:6vh;
