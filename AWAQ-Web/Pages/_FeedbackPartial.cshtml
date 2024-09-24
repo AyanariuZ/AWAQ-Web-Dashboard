@@ -1,0 +1,52 @@
+﻿@model MainPageColModel
+<link rel="stylesheet" href="~/css/styles.css" />
+
+<div class="cont">
+    <div class="loginfeed">
+        <div class="form formfeed">
+            <h4>Formulario de Retroalimentación</h4>
+
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success">
+                    @TempData["SuccessMessage"]
+                </div>
+            }
+
+            <form method="post" asp-page-handler="Feedback">
+                <div class="mb-6 pt-2">
+                    <label class="form-label">Sugerencias para mejorar los juegos</label>
+                    <textarea asp-for="Sugerencias" class="form-control" required></textarea>
+                    <span asp-validation-for="Sugerencias" class="text-danger"></span>
+                </div>
+
+                <div class="mb-6 pt-2">
+                    <label class="form-label">¿Qué se debería quitar (no aporta valor)?</label>
+                    <textarea asp-for="Quitar" class="form-control" required></textarea>
+                    <span asp-validation-for="Quitar" class="text-danger"></span>
+                </div>
+
+                <div class="mb-6 pt-2">
+                    <label class="form-label">Pregunta(s) para AWAQ</label>
+                    <textarea asp-for="Preguntas" class="form-control" required></textarea>
+                    <span asp-validation-for="Preguntas" class="text-danger"></span>
+                </div>
+
+                <div class="mb-6 pt-2">
+                    <label class="form-label">Nombre</label>
+                    <input asp-for="Nombre" type="text" class="form-control" required>
+                    <span asp-validation-for="Nombre" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3 pt-2">
+                    <label class="form-label">Correo electrónico</label>
+                    <input asp-for="Email" type="email" class="form-control" required>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <button class="btn btn-primary pt-2" type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <div class="login-img"></div>
+</div>

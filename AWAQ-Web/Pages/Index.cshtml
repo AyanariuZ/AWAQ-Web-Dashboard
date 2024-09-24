@@ -1,7 +1,7 @@
 ﻿@page
 @model AWAQ_Web.Pages.IndexModel
 @{
-    ViewData["Title"] = "Log In";
+    ViewData["Title"] = "Iniciar sesión";
     Layout = "";
 }
 
@@ -10,32 +10,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo Bootstrap 4</title>
+    <title>AWAQ</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/index.css" />
 </head>
 <body>
     <div class="cont">
-        
+
         <div class="login">
             <div class="form">
-                
-                <img class="logo" src="~/img/awaq-logo.png"/>
+
+                <img class="logo" src="~/img/awaq-logo.png" />
                 <h1>¡Bienvenido!</h1>
                 <p>Introduzca sus credenciales para acceder a su cuenta</p>
                 <br />
                 <form method="post">
                     <div class="mb-3">
-                        <label for="correo" class="form-label">Ingresa tu correo electronico</label>
-                        <input asp-for="email" type="email" class="form-control" id="correo" placeholder="correo@awaq.com" >
-                        <!-- agregar required-->
+                        <label for="correo" class="form-label">Ingresa tu correo electrónico</label>
+                        <input asp-for="email" type="email" class="form-control" id="correo" placeholder="correo@awaq.com">
+                        <span asp-validation-for="email" class="text-danger"></span>
                     </div>
+                    
+
                     <div class="mb-3">
                         <label for="contraseña" class="form-label">Ingresa tu contraseña</label>
-                        <input asp-for="password" type="password" class="form-control" id="email" placeholder="Contraseña" >
+                        <input asp-for="password" type="password" class="form-control" id="contraseña" placeholder="Contraseña">
+                        <span asp-validation-for="password" class="text-danger"></span>
+                        <div>
+                            @if (!ModelState.IsValid)
+                            {
+                                <div style="color: red;">
+                                    @foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+                                    {
+                                        <p>@error.ErrorMessage</p>
+                                    }
+                                </div>
+
+                            }
+                        </div>
                     </div>
                     <button class="btn" type="submit">Iniciar sesión</button>
                 </form>
+                <br />
+                @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+                {
+                    Console.WriteLine(Model.ErrorMessage);
+                    <div class=" text-danger">@Model.ErrorMessage</div>
+                }
             </div>
         </div>
 
@@ -43,9 +64,8 @@
         </div>
 
     </div>
-        
+
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    </body>
+</body>
 </html>
-

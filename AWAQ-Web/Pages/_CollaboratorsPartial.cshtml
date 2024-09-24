@@ -1,48 +1,104 @@
-﻿@model AWAQ_Web.MainPageModel
+﻿@{
+    PaginatedList pager = new PaginatedList();
+    int pageNo = 0;
+    pager = Model.Pager;
+    Console.WriteLine(pager.TotalPages);
+    pageNo = pager.CurrentPage;
 
-<table id="collaboratorsTable" class="table table-striped">
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Tipo</th>
-            <th>Nombre</th>
-            <th>Fecha de ingreso</th>
-            <th>Intentos</th>
-            <th>Calificación</th>
-            <th>Estatus</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model.Collaborators)
-        {
+
+
+}
+@model AWAQ_Web.MainPageModel
+<link rel="stylesheet" href="~/css/styles.css">
+
+<div class=tablebody>
+    <table id="collaboratorsTable" class="tab-colab">
+        <thead>
             <tr>
-                <td>@item.Id</td>
-                <td>@item.TipoUsuario</td>
-                <td>@item.Nombre</td>
-                <td>@item.FechaIngreso.ToString("dd/MM/yyyy")</td>
-                <td>@item.Intentos</td>
-                <td>@item.Calificacion</td>
-                <td>@item.Estatus</td>
+                <th>ID</th>
+                <th>Tipo de usuario</th>
+                <th>Nombre</th>
+                <th>Fecha de ingreso</th>
+                <th>Estatus</th>
+                <th>Detalles</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.data)
+            {
+                <tr >
+                    <td>@item.Id</td>
+                    <td>
+                        @{
+                            if (item.TipoUsuario == "admin")
+                            {
+                                <p class="user">Administrador</p>
+                            }
+                            else if (item.TipoUsuario == "tedi")
+                            {
+                                <p class="user">TEDI</p>
+                            }
+                            else if (item.TipoUsuario == "general")
+                            {
+                                <p class="user">General</p>
+                            }
+                        }
+                        
+                    </td>
+                    <td>@item.Nombre</td>
+                    <td>@item.FechaIngreso.ToString("dd/MM/yyyy")</td>
+                    <td>
+                        @{
+                            if (item.Estatus == "activo")
+                            {
+                                <p class="status active">Activo</p>
+                            }
+                            else if (item.Estatus == "inactivo")
+                            {
+                                <p class="status inactive">Inactivo</p>
+                            }
+                        }
+                    </td>
+                    <td>             
+                        <a asp-page-handler="Detalles" class="details">Ver</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="container">
+    @if (pager.TotalPages > 0)
+    {
+        <ul class="pagination1 justify-content-center">
+            @for (var pge = pager.StartPage; pge<=pager.EndPage; pge++)
+            {
+                <li class="page-item1" @(pge == pager.CurrentPage ? "active" : " ")>
+                    <a class="page-link1" asp-page-handler="Collaborators" asp-route-pg="@pge">@pge</a>
+                </li>
+            }
+        </ul>
+    }
+
+</div>
+
 
 @section Scripts {
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap5.min.css" />
     <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.11.3/js/dataTables.bootstrap5.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap5.min.css" />
+
     <script>$(document).ready(function () {
             $('#collaboratorsTable').DataTable({
-                "paging": true,  // Habilita la paginación
-                "ordering": true,  // Habilita la ordenación
-                "info": true,  // Muestra info de paginación
-                "searching": true,  // Habilita la barra de búsqueda
+                "paging": true,
+                "ordering": true,
+                "info": true,
+                "searching": true,
                 "language": {
-                    "url": "//cdn.datatables.net/plug-ins/1.11.3/i18n/es_es.json"  // Configuración de idioma español
+                    "url": "//cdn.datatables.net/plug-ins/1.11.3/i18n/es_es.json"
                 }
             });
         });</script>
 }
-

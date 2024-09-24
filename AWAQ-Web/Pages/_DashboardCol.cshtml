@@ -1,0 +1,12 @@
+﻿@model MainPageColModel
+@{
+    var email = Model.HttpContext.Session.GetString("email");
+
+    var emailUser = email.Split('@')[0];
+
+    var lookerUrl = $"https://lookerstudio.google.com/embed/reporting/05aafabb-e2a2-4d2b-802b-262ca3780649/page/ixm2D/edit?params=%7B%22df16%22:%22include%25EE%2580%25800%25EE%2580%2580IN%25EE%2580%2580{emailUser}%2540awaq.com%22%7D";
+}
+<div style="display: flex; justify-content: center;">
+    <iframe width="1024" height="600" src="@lookerUrl" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+</div>
+

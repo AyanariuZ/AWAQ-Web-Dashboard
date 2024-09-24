@@ -102,7 +102,7 @@
     width: 50%;
     display: flex;
     justify-content: center;
-    padding: 2rem;
+    padding-right:1.5rem;
 }
 
 .logo {
@@ -127,10 +127,319 @@
 
 .login-img {
     width: 50%;
-    height: 92vh;
+    height: auto;
     background-image: url(../img/hojas.jpg);
     background-size: cover;
     border-top-left-radius: 6vh;
     border-bottom-left-radius: 6vh;
     background-position: bottom;
+}
+
+.tablebody{
+    display:flex;
+    justify-content:center;
+}
+.tab-colab {
+    width: 95%;
+    
+    
+    box-shadow: 0.4rem 0.8rem 0.8rem rgb(200,200,200);
+    border-radius: 0.8rem;
+    background-color: #fffb;
+}
+
+table,th,td{
+    text-align:center;
+    justify-content:center;
+    padding:0.5rem;
+    
+
+}
+
+tbody tr:nth-child(even){
+    background-color:rgba(210,210,210,0.3);
+}
+
+tbody tr {
+    transition: 0.3s;
+}
+
+tbody tr:hover {
+    background-color: rgba(210,210,210,1);
+}
+
+thead{
+    border-bottom-width:1px;
+    border-bottom-color:rgb(200, 200, 200);
+}
+
+.status {
+    padding: .4rem 0;
+    border-radius: 0.8rem;
+    text-align: center;
+    margin:0;
+}
+.user{
+    margin-bottom:0;
+}
+.status.active{
+    background-color:rgba(0,200,0,0.3);
+}
+.status.inactive {
+    background-color: rgba(200,0,0,.3);
+}
+.details {
+    color: white;
+    text-decoration: none;
+    padding: 0.4rem 1rem;
+    border-radius: 0.8rem;
+    background-color: #649353;
+    transition:0.2s;
+}
+.details:hover {
+        background-color: #83c46c;
+        color:white;
+        
+}
+
+
+.pagination1{
+    padding:0;
+    display:flex;
+    list-style:none;
+    margin-top: 2rem;
+}
+
+.page-link1 {
+    background-color: white;
+    color: dimgrey;
+    border-radius: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    text-decoration:none;
+    transition:0.15s;
+}
+    .page-link1:hover {
+        background-color: #649353;
+        color: white;
+        transition: 0.15s;
+    }
+
+.page-item1 {
+    margin: 0.2rem;
+    border-radius: 4rem;
+    box-shadow: 0.4rem 0.8rem 0.8rem rgb(200,200,200);
+}
+.sign-out{
+    margin-top:25rem;
+}
+.sign-out1 {
+    margin-top: 20rem;
+}
+
+.content{
+    display:flex;
+    justify-content:center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+    border-radius: 0.8rem !important;
+    /* Aquí se agrega el borde de 20px y el color #c1efde */
+}
+
+.card-body {
+    flex: 1;
+    
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align:center;
+}
+
+.card-text {
+    font-size: 1rem;
+    text-align: center;
+    color: #555;
+}
+
+#temasContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0rem;
+}
+
+.search {
+    
+    width: 40%;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    margin-right:1rem;
+    text-indent: 12px;
+}
+
+.guia-tool{
+    display:flex;
+    justify-content:center;
+
+}
+
+.overflow-scroll {
+    max-height: 80vh; /* Ajusta esta altura según sea necesario */
+    overflow-y: auto;
+}
+
+.filtro-modulo {
+    border-radius: 2rem;
+    background-color: #649353;
+    transition:0.2s;
+}
+
+.category {
+    padding: 0.4rem;
+    font-size: 14px;
+    font-weight:600;
+    text-align: center;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+.etica {
+    background-color: yellow;
+    width: 20%;
+}
+.seg {
+    background-color: grey;
+    width: 25%;
+}
+.com {
+    background-color: blue;
+    width: 30%;
+}
+.est {
+    background-color: darkgreen;
+    width: 50%;
+}
+
+    .tedi {
+        background-color: orangered;
+    }
+
+.col-md-4{
+    flex-flow:column;
+    align-items:center;
+    display:flex;
+    
+}
+
+.accordion-body {
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 4rem;
+    padding-top: 3.3rem;
+    padding-bottom: 3.3rem;
+}
+
+.tower-img {
+    width: 70%;
+    height: auto;
+    
+    
+    background-position: bottom;
+    margin-right:3rem;
+}
+
+.accordion{
+    width: 70%;
+    border-radius:4rem;
+}
+
+.accordion-button {
+    background-color: #649353;
+    color: white;
+    font-weight: 600;
+    font-size:16px;
+    
+}
+
+.accordion-button:not(.collapsed) {
+        background-color: #83c46c !important;
+        color:white;
+}
+
+.accordion-button:focus {
+        z-index: 3;
+        border-color: #fffb;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgba(0,200,0,0.3)
+    }
+
+.accordion-item:last-of-type {
+    margin-bottom: 0;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+    .accordion-item:last-of-type .accordion-button.collapsed {
+        border-bottom-right-radius: calc(1rem - 1px);
+        border-bottom-left-radius: calc(1rem - 1px);
+    }
+
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: calc(1rem - 1px);
+    border-top-right-radius: calc(1rem - 1px);
+}
+.accordion-item:first-of-type {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.accordion-button:not(.collapsed)::after {
+    
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    transform:rotate(180deg);
+    filter:invert()
+}
+
+.card-text1 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-right:1.25rem; 
+    color: #555;
+}
+
+.menu-game {
+    width: 40rem;
+    height: auto;
+    border-radius:1rem;
+    
+    
+}
+
+.credit-title {
+    font-size: 1rem;
+    font-weight:600;
+    text-align: center;
+    color: #555;
+}
+
+.card-body1 {
+    max-height: 200px;
+}
+
+.loginfeed {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-right: 1.5rem;
+}
+
+.formfeed{
+    width:80%;
 }

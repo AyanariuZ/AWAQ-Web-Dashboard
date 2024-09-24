@@ -9,49 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AWAQ_Web
 build_property.RootNamespace = AWAQ_Web
-build_property.ProjectDir = /Users/skulltula/Downloads/AWAQ-Web-Dashboard-main/AWAQ-Web/
+build_property.ProjectDir = C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/skulltula/Downloads/AWAQ-Web-Dashboard-main/AWAQ-Web
+build_property.MSBuildProjectDirectory = C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/skulltula/Downloads/AWAQ-Web-Dashboard-main/AWAQ-Web/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+[C:/Users/super/OneDrive/Escritorio/usf/AWAQ-Web-2/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/skulltula/Downloads/AWAQ-Web-Dashboard-main/AWAQ-Web/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+[C:/Users/super/OneDrive/Escritorio/usf/AWAQ-Web-2/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/skulltula/Downloads/AWAQ-Web-Dashboard-main/AWAQ-Web/Pages/MainPage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFpblBhZ2UuY3NodG1s
+[C:/Users/super/OneDrive/Escritorio/usf/AWAQ-Web-2/Pages/MainPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpblBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/skulltula/Downloads/AWAQ-Web-Dashboard-main/AWAQ-Web/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/super/OneDrive/Escritorio/usf/AWAQ-Web-2/Pages/MainPageCol.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpblBhZ2VDb2wuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/skulltula/Downloads/AWAQ-Web-Dashboard-main/AWAQ-Web/Pages/_AddCollaboratorPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0FkZENvbGxhYm9yYXRvclBhcnRpYWwuY3NodG1s
+[C:/Users/super/OneDrive/Escritorio/usf/AWAQ-Web-2/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/skulltula/Downloads/AWAQ-Web-Dashboard-main/AWAQ-Web/Pages/_CollaboratorsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0NvbGxhYm9yYXRvcnNQYXJ0aWFsLmNzaHRtbA==
+[C:/Users/super/OneDrive/Escritorio/usf/AWAQ-Web-2/Pages/_AddCollaboratorPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkZENvbGxhYm9yYXRvclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/skulltula/Downloads/AWAQ-Web-Dashboard-main/AWAQ-Web/Pages/_DashboardPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0Rhc2hib2FyZFBhcnRpYWwuY3NodG1s
+[C:/Users/super/OneDrive/Escritorio/usf/AWAQ-Web-2/Pages/_CollaboratorsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0NvbGxhYm9yYXRvcnNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/skulltula/Downloads/AWAQ-Web-Dashboard-main/AWAQ-Web/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/super/OneDrive/Escritorio/usf/AWAQ-Web-2/Pages/_DashboardCol.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0Rhc2hib2FyZENvbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/skulltula/Downloads/AWAQ-Web-Dashboard-main/AWAQ-Web/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/super/OneDrive/Escritorio/usf/AWAQ-Web-2/Pages/_DashboardPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0Rhc2hib2FyZFBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/skulltula/Downloads/AWAQ-Web-Dashboard-main/AWAQ-Web/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-czuedd5g91
+[C:/Users/super/OneDrive/Escritorio/usf/AWAQ-Web-2/Pages/_FeedbackPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0ZlZWRiYWNrUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/super/OneDrive/Escritorio/usf/AWAQ-Web-2/Pages/_GuiaTemasPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0d1aWFUZW1hc1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/super/OneDrive/Escritorio/usf/AWAQ-Web-2/Pages/_InstruccionesPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0luc3RydWNjaW9uZXNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/super/OneDrive/Escritorio/usf/AWAQ-Web-2/Pages/_Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1Byb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/super/OneDrive/Escritorio/usf/AWAQ-Web-2/Pages/_ProfileCol.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1Byb2ZpbGVDb2wuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/super/OneDrive/Escritorio/usf/AWAQ-Web-2/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/super/OneDrive/Escritorio/usf/AWAQ-Web-2/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/super/OneDrive/Escritorio/usf/AWAQ-Web-2/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-eo3xvhi2bt

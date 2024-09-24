@@ -139,3 +139,233 @@ C:/Users/miabe/OneDrive/Desktop/Alex/AWAQ-Web-Dashboard/AWAQ-Web/obj/Debug/net7.
 /Users/skulltula/Downloads/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.pdb
 /Users/skulltula/Downloads/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.genruntimeconfig.cache
 /Users/skulltula/Downloads/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/ref/AWAQ-Web.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/appsettings.Development.json
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/appsettings.json
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/AWAQ-Web.staticwebassets.runtime.json
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/AWAQ-Web.exe
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/AWAQ-Web.deps.json
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/AWAQ-Web.runtimeconfig.json
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/AWAQ-Web.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/AWAQ-Web.pdb
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/BouncyCastle.Cryptography.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/Google.Protobuf.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/K4os.Compression.LZ4.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/K4os.Compression.LZ4.Streams.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/K4os.Hash.xxHash.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/MySql.Data.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/System.Drawing.Common.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/System.Security.Permissions.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/System.Windows.Extensions.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/ZstdSharp.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/runtimes/win-x64/native/comerr64.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/runtimes/win-x64/native/gssapi64.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/runtimes/win-x64/native/k5sprt64.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/runtimes/win-x64/native/krb5_64.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/runtimes/win-x64/native/krbcc64.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.csproj.AssemblyReference.cache
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.AssemblyInfoInputs.cache
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.AssemblyInfo.cs
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.csproj.CoreCompileInputs.cache
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.RazorAssemblyInfo.cache
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.RazorAssemblyInfo.cs
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/staticwebassets/msbuild.AWAQ-Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/staticwebassets/msbuild.build.AWAQ-Web.props
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.AWAQ-Web.props
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.AWAQ-Web.props
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/staticwebassets.pack.json
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/staticwebassets.build.json
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/staticwebassets.development.json
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/scopedcss/bundle/AWAQ-Web.styles.css
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/scopedcss/projectbundle/AWAQ-Web.bundle.scp.css
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.csproj.CopyComplete
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/refint/AWAQ-Web.dll
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.pdb
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.genruntimeconfig.cache
+C:/Users/super/OneDrive/Escritorio/4to semestre/Construcción de Software/Modulo Web/AWAQ-Proyect/Sprint2/AWAQ-Web-Dashboard-main/AWAQ-Web/obj/Debug/net7.0/ref/AWAQ-Web.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/appsettings.Development.json
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/appsettings.json
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/AWAQ-Web.staticwebassets.runtime.json
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/AWAQ-Web.exe
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/AWAQ-Web.deps.json
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/AWAQ-Web.runtimeconfig.json
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/AWAQ-Web.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/AWAQ-Web.pdb
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/BouncyCastle.Cryptography.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/Google.Protobuf.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/K4os.Compression.LZ4.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/K4os.Compression.LZ4.Streams.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/K4os.Hash.xxHash.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/MySql.Data.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/System.Drawing.Common.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/System.Security.Permissions.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/System.Windows.Extensions.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/ZstdSharp.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/runtimes/win-x64/native/comerr64.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/runtimes/win-x64/native/gssapi64.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/runtimes/win-x64/native/k5sprt64.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/runtimes/win-x64/native/krb5_64.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/runtimes/win-x64/native/krbcc64.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.csproj.AssemblyReference.cache
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.AssemblyInfoInputs.cache
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.AssemblyInfo.cs
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.csproj.CoreCompileInputs.cache
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.RazorAssemblyInfo.cache
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.RazorAssemblyInfo.cs
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/staticwebassets/msbuild.AWAQ-Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/staticwebassets/msbuild.build.AWAQ-Web.props
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.AWAQ-Web.props
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.AWAQ-Web.props
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/staticwebassets.pack.json
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/staticwebassets.build.json
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/staticwebassets.development.json
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/scopedcss/bundle/AWAQ-Web.styles.css
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/scopedcss/projectbundle/AWAQ-Web.bundle.scp.css
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.csproj.CopyComplete
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/refint/AWAQ-Web.dll
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.pdb
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/AWAQ-Web.genruntimeconfig.cache
+C:/Users/super/Downloads/AWAQ-Web (3) (1)/AWAQ-Web/obj/Debug/net7.0/ref/AWAQ-Web.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/appsettings.Development.json
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/appsettings.json
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/AWAQ-Web.staticwebassets.runtime.json
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/AWAQ-Web
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/AWAQ-Web.deps.json
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/AWAQ-Web.runtimeconfig.json
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/AWAQ-Web.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/AWAQ-Web.pdb
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/BouncyCastle.Cryptography.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/Google.Protobuf.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/K4os.Compression.LZ4.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/K4os.Compression.LZ4.Streams.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/K4os.Hash.xxHash.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/MySql.Data.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/System.Drawing.Common.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/System.Security.Permissions.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/System.Windows.Extensions.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/ZstdSharp.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/runtimes/win-x64/native/comerr64.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/runtimes/win-x64/native/gssapi64.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/runtimes/win-x64/native/k5sprt64.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/runtimes/win-x64/native/krb5_64.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/runtimes/win-x64/native/krbcc64.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/AWAQ-Web.csproj.AssemblyReference.cache
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/AWAQ-Web.GeneratedMSBuildEditorConfig.editorconfig
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/AWAQ-Web.AssemblyInfoInputs.cache
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/AWAQ-Web.AssemblyInfo.cs
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/AWAQ-Web.csproj.CoreCompileInputs.cache
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/AWAQ-Web.MvcApplicationPartsAssemblyInfo.cache
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/AWAQ-Web.RazorAssemblyInfo.cache
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/AWAQ-Web.RazorAssemblyInfo.cs
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/staticwebassets/msbuild.AWAQ-Web.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/staticwebassets/msbuild.build.AWAQ-Web.props
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.AWAQ-Web.props
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.AWAQ-Web.props
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/staticwebassets.build.json
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/staticwebassets.development.json
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/scopedcss/bundle/AWAQ-Web.styles.css
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/scopedcss/projectbundle/AWAQ-Web.bundle.scp.css
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/AWAQ-Web.csproj.CopyComplete
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/AWAQ-Web.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/refint/AWAQ-Web.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/AWAQ-Web.pdb
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/AWAQ-Web.genruntimeconfig.cache
+/Users/skulltula/Downloads/AWAQ-Web 2/obj/Debug/net7.0/ref/AWAQ-Web.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/MailKit.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/MimeKit.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/System.Formats.Asn1.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/System.Security.Cryptography.Pkcs.dll
+/Users/skulltula/Downloads/AWAQ-Web 2/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\appsettings.json
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\AWAQ-Web.staticwebassets.runtime.json
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\AWAQ-Web.exe
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\AWAQ-Web.deps.json
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\AWAQ-Web.runtimeconfig.json
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\AWAQ-Web.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\AWAQ-Web.pdb
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\MailKit.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\MimeKit.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\MySql.Data.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\System.Formats.Asn1.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\ZstdSharp.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\AWAQ-Web.csproj.AssemblyReference.cache
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\AWAQ-Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\AWAQ-Web.AssemblyInfoInputs.cache
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\AWAQ-Web.AssemblyInfo.cs
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\AWAQ-Web.csproj.CoreCompileInputs.cache
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\AWAQ-Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\AWAQ-Web.RazorAssemblyInfo.cache
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\AWAQ-Web.RazorAssemblyInfo.cs
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\staticwebassets\msbuild.AWAQ-Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\staticwebassets\msbuild.build.AWAQ-Web.props
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.AWAQ-Web.props
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.AWAQ-Web.props
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\scopedcss\bundle\AWAQ-Web.styles.css
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\scopedcss\projectbundle\AWAQ-Web.bundle.scp.css
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\AWAQ-Web.csproj.CopyComplete
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\AWAQ-Web.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\refint\AWAQ-Web.dll
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\AWAQ-Web.pdb
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\AWAQ-Web.genruntimeconfig.cache
+C:\Users\super\OneDrive\Escritorio\usf\AWAQ-Web-2\obj\Debug\net7.0\ref\AWAQ-Web.dll

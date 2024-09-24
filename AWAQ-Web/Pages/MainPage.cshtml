@@ -1,8 +1,7 @@
 ﻿@page
 @model MainPageModel
 @{
-    Layout = null;
-    ViewData["Title"] = "Dashboard";
+    
 }
 
 
@@ -15,23 +14,25 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap5.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="~/css/styles.css">
-    <title>Admin Dashboard</title>
+    <title>Panel de Administración</title>
 </head>
 <body>
     <div class="d-flex" id="wrapper">
-        <!-- Sidebar -->
+        <!-- Barra lateral -->
         <div class="bg-white" id="sidebar-wrapper">
             <div class="sidebar-heading text-center py-4 primary-text fs-4 fw-bold text-uppercase border-bottom">
                 <img src="~/img/awaq-logo.png" alt="Logo" style="width: 100px;">
             </div>
             <div class="list-group list-group-flush my-3">
-                <a asp-page-handler="Dashboard" class="list-group-item list-group-item-action bg-transparent second-text fw-bold @Model.IsActive("dashboard")"><i class="fas fa-tachometer-alt me-2"></i>Dashboard</a>
-                <a asp-page-handler="Collaborators" class="list-group-item list-group-item-action bg-transparent second-text fw-bold @Model.IsActive("collaborators")"><i class="fas fa-user me-2"></i>Colaboradores</a>
-                <a asp-page-handler="AddCollaborator" class="list-group-item list-group-item-action bg-transparent second-text fw-bold @Model.IsActive("add-collaborator")"><i class="fas fa-user-plus me-2"></i>Agregar Colaborador</a>
+                <a asp-page-handler="Dashboard" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i class="fas fa-tachometer-alt me-2"></i>Panel de Control</a>
+                <a asp-page-handler="Collaborators" asp-route-pg="1" class="list-group-item list-group-item-action bg-transparent second-text fw-bold "><i class="fas fa-user me-2"></i>Colaboradores</a>
+                <a asp-page-handler="AddCollaborator"  class="list-group-item list-group-item-action bg-transparent second-text fw-bold "><i class="fas fa-user-plus me-2"></i>Agregar Colaborador</a>
+                
+                <a asp-page-handler="SignOut" class="list-group-item list-group-item-action bg-transparent second-text fw-bold sign-out"><i class="fas fa-sign-out-alt me-2"></i>Salir</a>
             </div>
         </div>
 
-        <!-- Page Content -->
+        <!-- Contenido de la página -->
         <div id="page-content-wrapper">
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-4 px-4">
                 <div class="d-flex align-items-center">
@@ -47,8 +48,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link second-text fw-bold" href="#">
-                                <i class="fas fa-user me-2"></i>Usuario
+                            <a class="nav-link second-text fw-bold" asp-page-handler="Profile" asp-route-id="@HttpContext.Session.GetInt32("userid")">
+                                <i class="fas fa-user me-2"></i>@HttpContext.Session.GetString("username")
                             </a>
                         </li>
                     </ul>
@@ -57,11 +58,11 @@
             </nav>
 
 
-                    <div class="container-fluid px-4">
-                        <!-- Dynamic Content -->
-                        @Html.Partial(Model.CurrentView)
-                    </div>
-                </div>
+            <div class="container-fluid px-4">
+                <!-- Contenido Dinámico -->
+                @Html.Partial(Model.CurrentView)
+            </div>
+        </div>
     </div>
 </body>
 </html>

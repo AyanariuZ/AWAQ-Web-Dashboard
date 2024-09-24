@@ -1,0 +1,522 @@
+﻿@model MainPageColModel
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="~/css/styles.css" />
+
+
+<div class="container mt-2">
+
+    <div class="mb-4 guia-tool">
+        <input type="text" id="searchInput" class="form-control search" placeholder="Buscar tema o palabra clave" onkeyup="filterCards()">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle filtro-modulo" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Modulos
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#" onclick="filterCategory('etica')">Ética</a></li>
+                <li><a class="dropdown-item" href="#" onclick="filterCategory('seguridad')">Seguridad</a></li>
+                <li><a class="dropdown-item" href="#" onclick="filterCategory('estaciones')">Estaciones Biológicas</a></li>
+                <li><a class="dropdown-item" href="#" onclick="filterCategory('comunicacion')">Comunicación</a></li>
+                <li><a class="dropdown-item" href="#" onclick="filterCategory('tedi')">TEDI</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="row overflow-scroll" id="temasContainer">
+        <div class="col-md-4 mb-4" data-keywords="Objeto, Código, Ético" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Objeto del Código</h5>
+                    <p class="card-text">Establecer los principios éticos y las pautas de conducta que deben regir en la ONGD.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Normas, Éticas, Resolución, Conflictos" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Objeto del Código</h5>
+                    <p class="card-text">Proporcionar las normas éticas para la resolución de dudas o conflictos deontológicos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Respeto, Dignidad, No Discriminación" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Principios éticos y Pautas de conducta - Respeto</h5>
+                    <p class="card-text">Tratar a todas las personas dignamente, sin discriminación por sexo, raza, nacionalidad o religión, considerando siempre sus derechos laborales. Y colaborando e impulsando políticas inclusivas.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Integridad, Imparcialidad, Justicia" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Principios éticos y Pautas de conducta - Integridad</h5>
+                    <p class="card-text">Actuar con imparcialidad, justicia y buena fe. Orientar el trabajo hacia la lucha contra la pobreza y hacia la sostenibilidad, evitando cualquier beneficio personal de los recursos públicos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Responsabilidad, Legislación, Honestidad" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Principios éticos y Pautas de conducta - Responsabilidad</h5>
+                    <p class="card-text">Respetar la legislación, actuar honesta y ejemplarmente, teniendo en cuenta las consecuencias en terceros. Reconocer los errores, solucionándolos y evitando su repetición.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Profesionalidad, Calidad, Mejora Continua" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Principios éticos y Pautas de conducta - Profesionalidad</h5>
+                    <p class="card-text">Dedicación, entrega y compromiso con la Calidad y la mejora continua. Mejorar conocimientos y capacidades participando en acciones de formación permanente buscando siempre la excelencia profesional.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Compromiso, Lealtad, Organización" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Principios éticos y Pautas de conducta - Compromiso</h5>
+                    <p class="card-text">Mantener la lealtad y compromiso con la Organización así como los proyectos y programas a los que nos comprometemos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Participación, Diálogo, Trabajo en Equipo" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Principios éticos y Pautas de conducta - Participación y Diálogo</h5>
+                    <p class="card-text">Trabajar en equipo, compartir conocimientos, fomentar la participación y la comunicación efectiva. Reconocer el derecho a opinar de todos los afectados, huyendo de cualquier muestra de superioridad.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Transparencia, Veracidad, Resultados" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Principios éticos y Pautas de conducta - Transparencia</h5>
+                    <p class="card-text">Acreditar de forma veraz y completa los resultados y los criterios seguidos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Pautas, Conducta, Básicas" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Pautas de Conducta Básicas</h5>
+                    <p class="card-text">Actuar siempre en beneficio de la ONGD evitando intereses personales y cualquier discriminación.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Respeto, Colaboradores, Compromiso" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Respecto con los colaboradores</h5>
+                    <p class="card-text">Actuar siempre con Compromiso, corresponsabilidad, igualdad e imparcialidad, colaborando con transparencia y buena fe.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Respeto, Compañeros, Culturas" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Respecto al resto de compañeros</h5>
+                    <p class="card-text">Respeto a las diferentes culturas, diálogo y trabajo en equipo.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="ONG, Eficacia, Profesionalidad" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Respecto a la ONG</h5>
+                    <p class="card-text">Eficacia, honradez, profesionalidad y responsabilidad, respeto a su nombre como embajadores de la org.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Normas, Actuación, Leyes" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Normas de actuación</h5>
+                    <p class="card-text">Compromiso de cumplimiento de todas las leyes en los países en que operamos por parte de todos los integrantes de la ONGD.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Prohibición, Sustancias, Psicotrópicas" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Prohibición de sustancias psicotrópicas</h5>
+                    <p class="card-text">Queda expresamente prohibido el consumo, posesión o distribución de sustancias psicotrópicas en cualquier momento y lugar relacionado con las actividades de la organización.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Conflicto, Interés, Declaración" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Conflicto de interés</h5>
+                    <p class="card-text">Declarar a la organización cualquier conflicto de interés por parte de los integrantes para su correcta resolución.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Explotación, Vulnerabilidad, Protección" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Explotación de vulnerabilidad</h5>
+                    <p class="card-text">Nunca explotar la vulnerabilidad de una persona, especialmente cuando se trata de una mujer o un niño, ni permitir que se coloque a una persona en una situación comprometida.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Confidencialidad, Información, Ciberseguridad">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Confidencialidad de la información</h5>
+                    <p class="card-text">Respeto por la confidencialidad de la información y normativas de ciberseguridad de la organización.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Regalos, Beneficios, Objetividad" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Regalos y beneficios</h5>
+                    <p class="card-text">El personal de la ONGD no aceptará ni ofrecerá regalos ni beneficios que puedan comprometer la objetividad del proyecto.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Conocimiento, Código, Cumplimiento" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Conocimiento del código</h5>
+                    <p class="card-text">La Dirección garantizará el conocimiento del código y será responsable de que se cumpla pudiendo tomar las medidas disciplinarias que la organización considere.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Consecuencias, Incumplimiento, Ley" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Consecuencias por incumplimiento</h5>
+                    <p class="card-text">El incumplimiento de la ley acarreará consecuencias para todos aquellos que la vulneren.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Propósito, Código Ético, Objetivo" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Propósito del Código Ético</h5>
+                    <p class="card-text">El Código Ético tiene como objetivo establecer principios éticos y pautas de conducta para guiar las acciones de la organización.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Principios, Éticos, Destacados" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Principios éticos destacados</h5>
+                    <p class="card-text">Los principios éticos incluyen el respeto, la integridad, la responsabilidad, la profesionalidad, el compromiso, la participación y el diálogo, y la transparencia.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Actuación, Socios, Compañeros" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Actuación con socios y compañeros</h5>
+                    <p class="card-text">Se espera que actúen con compromiso, corresponsabilidad, igualdad, imparcialidad, colaboración y transparencia.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Principios, Clave, Compañeros" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Principios éticos clave para compañeros</h5>
+                    <p class="card-text">Los principios éticos clave para los compañeros incluyen el respeto, el diálogo y el trabajo en equipo. Es fundamental tratar a los demás con dignidad y colaborar de manera inclusiva.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Eficacia, Responsabilidad, Normas Legales" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Eficacia y responsabilidad</h5>
+                    <p class="card-text">Se espera que los integrantes de la ONGD actúen con eficacia, honradez, profesionalidad y responsabilidad. Esto implica cumplir con las normas legales y declarar cualquier conflicto de interés para su correcta resolución.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Eficacia, Código Ético, Seguimiento" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Eficacia del Código Ético</h5>
+                    <p class="card-text">El Código establece un sistema de seguimiento y control para garantizar su cumplimiento.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Objetividad, Confidencialidad, Normativas" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Objetividad y confidencialidad</h5>
+                    <p class="card-text">Para mantener la objetividad, el personal de la ONGD no debe aceptar ni ofrecer regalos ni beneficios que puedan comprometer la imparcialidad. Además, se debe respetar la confidencialidad de la información y cumplir con las normativas de ciberseguridad. La Dirección es responsable de garantizar que el código se cumpla adecuadamente.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Consecuencias, Violaciones, Código Ético" data-category="etica">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Consecuencias por violaciones</h5>
+                    <p class="card-text">Las sanciones por violaciones al Código pueden variar, pero es importante que se apliquen de manera justa y transparente.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Estructura, Awaq, Projectizada">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Estructura de Awaq</h5>
+                    <p class="card-text">Awaq es una estructura projectizada, no jerarquizada. Lo que significa que nuestras Comunicaciones son constantes y eficientes.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Correo Electrónico, Outlook, Registro" data-category="comunicacion">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Correo electrónico: Outlook</h5>
+                    <p class="card-text">En esta aplicación recibes todos los correos tanto internos como externos. Si necesitas registrarte en una compañía externa a Awaq para obtener cualquier tipo de información necesaria para la colaboración deberás hacerlo usando el correo org que se te facilitó.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Prohibición, Uso Indebido, Correo" data-category="comunicacion">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Prohibición de uso indebido de correo</h5>
+                    <p class="card-text">No está permitido usar el correo org en registros web que fomenten actividades no relacionadas con las actividades de Awaq, pudiendo constituir un delito el registro en webs que incurran en un daño moral, material o financiero a la organización.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Organización, Agenda, Outlook" data-category="comunicacion">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Organización de la agenda en Outlook</h5>
+                    <p class="card-text">Outlook contiene la agenda que debes mantener organizada y siempre actualizada.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Importancia, App Móvil, Outlook" data-category="comunicacion">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Importancia de la app móvil de Outlook</h5>
+                    <p class="card-text">IMPORTANTE: Outlook combina correo y agenda todo en uno, mantén siempre actualizado tu correo. Es muy recomendable que te descargues la app en el móvil ya que te notifica de la llegada de nuevos correos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Mensajería, Rainbow, Oficina Virtual" data-category="comunicacion">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Mensajería instantánea: Rainbow</h5>
+                    <p class="card-text">En esta aplicación mantienes todos tus contactos enganchados en conversaciones para poder colaborar en los distintos proyectos a los que te puedas incorporar, es nuestra oficina virtual.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Importancia, Rainbow, Móvil" data-category="comunicacion">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Importancia de Rainbow en el móvil</h5>
+                    <p class="card-text">Es muy aconsejable tenerla en el móvil para poder recibir las notificaciones de aquellos proyectos en los que te veas implicado.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Mensajería, Sharepoint, Almacenamiento" data-category="comunicacion">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Mensajería instantánea: Sharepoint</h5>
+                    <p class="card-text">Sharepoint sirve como método de almacenamiento y repositorio.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Importancia, Sharepoint, Móvil" data-category="comunicacion">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Importancia de Sharepoint en el móvil</h5>
+                    <p class="card-text">Es muy aconsejable tenerla en el móvil para poder recibir las notificaciones de aquellos proyectos en los que te veas implicado.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Objetivos, Ciberseguridad, Prácticas" data-category="seguridad">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Objetivos de Ciberseguridad</h5>
+                    <p class="card-text">Educar y dar conciencia a los nuevos usuarios sobre buenas prácticas de seguridad cibernética y crear conciencia sobre las amenazas actuales.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Noción, Ciberseguridad, Ataques" data-category="seguridad">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Proporcionar noción de ciberseguridad</h5>
+                    <p class="card-text">Proporcionar a los colaboradores de Awaq la noción suficiente para evitar ataques cibernéticos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Resiliencia, Ciberseguridad, Recuperación" data-category="seguridad">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Resiliencia en ciberseguridad</h5>
+                    <p class="card-text">Implementar medidas para recuperarse rápidamente de incidentes de seguridad, minimizando el impacto en las operaciones de la organización.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Cumplimiento, Normativas, Ciberseguridad" data-category="seguridad">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Cumplimiento de normativas de ciberseguridad</h5>
+                    <p class="card-text">En el ámbito de la ciberseguridad se refiere al conjunto de normativas, estándares y regulaciones que una organización debe seguir para garantizar la protección adecuada de sus datos y sistemas digitales.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Confidencialidad, Información, Privacidad" data-category="seguridad">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Confidencialidad de la información</h5>
+                    <p class="card-text">Garantizar que la información sensible se mantenga privada y solo esté accesible para aquellos autorizados a verla.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Ciber ataques, Confidencialidad, Integridad" data-category="seguridad">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Ciber ataques</h5>
+                    <p class="card-text">Estos se inician desde una computadora en contra de un sitio web, sistema informático o computadora individual que compromete la confidencialidad, integridad o disponibilidad del ordenador o de la información almacenada en el mismo.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Uso Seguro, Dispositivos Móviles, Protección" data-category="seguridad">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Uso seguro de dispositivos móviles</h5>
+                    <p class="card-text">Proteger los dispositivos móviles con contraseñas, cifrado y aplicaciones de seguridad, además de tener cuidado al descargar aplicaciones y compartir información.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Contraseñas, Seguridad, Requisitos" data-category="seguridad">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Contraseñas seguras</h5>
+                    <p class="card-text">Su contraseña debe tener al menos 12 caracteres de longitud, contener una mezcla de caracteres alfabéticos y no alfabéticos o una mezcla de al menos dos tipos de caracteres no alfabéticos. No tener ID del usuario como parte de la contraseña. Nunca contener patrones restringidos como qwerty, asdf, 1234, etc. Nunca ser un palindrome. Ser únicamente de su propiedad y nunca compartirse con nadie.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Phishing, Seguridad, Datos Personales" data-category="seguridad">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Phishing</h5>
+                    <p class="card-text">Es un tipo de ataque de ciberseguridad utilizado a menudo para robar datos personales y financieros, como credenciales de acceso, números de tarjetas de créditos, etc. Haciéndose pasar por una entidad de confianza, los hackers engañan a los destinatarios para que hagan clic en un enlace malicioso, instalar un archivo malicioso o divulgar información confidencial.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Indicadores, Phishing, Seguridad" data-category="seguridad">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Indicadores de Phishing</h5>
+                    <p class="card-text">Comprobar el remitente. Los atacantes suelen utilizar nombres de dominios falsos que imitan a organizaciones de confianza. Analizar cómo está escrito el mensaje del correo. Buscar por fallos gramaticales o faltas ortográficas. Estar atento a cualquier inconsistencia. Revisar si hay solicitudes sospechosas o inusuales. No hacer clic en links sin antes confirmar su procedencia y/o validez.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Reportar, Phishing, Seguridad" data-category="seguridad">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Reportar Phishing</h5>
+                    <p class="card-text">Si identifica un correo phishing, reportarlo con el botón de phishing y alertar a seguridad@somosawaq.org.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Consejos, Identificación, Phishing" data-category="seguridad">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Consejos útiles para identificar Phishing</h5>
+                    <p class="card-text">Al recibir correos electrónicos externos, si es necesario ponerse en contacto con el remitente, no responda al correo electrónico original ni llame al número proporcionado. Asegúrese de verificar primero que el remitente sea legítimo. Las muestras de aprecio, los elogios, las recompensas, las felicitaciones o los obsequios recibidos sin ninguna razón especial deben ser tratados con precaución. Verifique la URL en la página de inicio de sesión de SSO. No juzgue por el aspecto de la página; las apariencias engañan.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Cumplimiento, Ciberseguridad, Fraudes" data-category="seguridad">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Cumplimiento de ciberseguridad</h5>
+                    <p class="card-text">La organización tiene una política de cero tolerancias para fraudes o violaciones de seguridad. Las sanciones disciplinarias en línea con las leyes locales y los principios de justicia natural serán administradas y aplicadas con los procesos disciplinarios o sancionatorios de la organización.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4" data-keywords="Resiliencia, Conceptos, Seguridad" data-category="seguridad">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Resiliencia</h5>
+                    <p class="card-text">Conceptos a tocar: Resistencia a ataques, recuperación rápida, gestión de la incertidumbre, aprendizaje continuo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const cards = document.querySelectorAll(".col-md-4");
+        const cards1 = document.querySelectorAll(".card-body");
+
+        cards.forEach(card => {
+            const category = card.getAttribute("data-category");
+
+            if (category) {
+                const categoryLabel = document.createElement("div");
+                
+                switch (category) {
+                    case "etica":
+                        categoryLabel.className = "category etica shadow-sm";
+                        categoryLabel.textContent = "Ética";
+                        break;
+                    case "seguridad":
+                        categoryLabel.className = "category seg shadow-sm";
+                        categoryLabel.textContent = "Seguridad";
+                        break;
+                    case "comunicacion":
+                        categoryLabel.className = "category com shadow-sm";
+                        categoryLabel.textContent = "Comunicación";
+                        break;
+                    case "estaciones":
+                        categoryLabel.className = "category est shadow-sm";
+                        categoryLabel.textContent = "Estaciones biológicas";
+                        break;
+                    case "tedi":
+                        categoryLabel.className = "category tedi shadow-sm";
+                        categoryLabel.textContent = "TEDI";
+                        break;
+                }
+                
+
+                card.appendChild(categoryLabel);
+            }
+        });
+    });
+
+    function filterCards() {
+        var input, filter, container, cards, i, keywords;
+        input = document.getElementById('searchInput');
+        filter = input.value.toUpperCase();
+        container = document.getElementById('temasContainer');
+        cards = container.getElementsByClassName('col-md-4');
+
+        for (i = 0; i < cards.length; i++) {
+            keywords = cards[i].getAttribute('data-keywords');
+            if (keywords.toUpperCase().indexOf(filter) > -1) {
+                cards[i].style.display = '';
+            } else {
+                cards[i].style.display = 'none';
+            }
+        }
+    }
+    function filterCategory(category) {
+        const cards = document.getElementById('temasContainer').getElementsByClassName('col-md-4');
+
+        for (let i = 0; i < cards.length; i++) {
+            if (category === 'all') {
+                cards[i].style.display = "";
+            } else {
+                const cardCategory = cards[i].getAttribute('data-category');
+                if (cardCategory === category) {
+                    cards[i].style.display = "";
+                } else {
+                    cards[i].style.display = "none";
+                }
+            }
+        }
+    }
+
+        </script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

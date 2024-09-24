@@ -30,7 +30,7 @@
 
 .login-img {
     width:50%;
-    height:92vh;
+    height:auto;
     background-image: url(/img/hojas.jpg);
     background-size:cover;
     border-top-left-radius:6vh;
